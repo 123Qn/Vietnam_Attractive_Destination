@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Details Viewer</title>
+    <script>
+      const generalDataUrl = './json/general.json'; // Path to the general JSON file
+      const specificDataUrl = './json/specific.json'; // Path to the specific JSON file
+
+      // Fetch JSON data from a given URL
+      async function fetchJsonData(url) {
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return await response.json();
+        } catch (error) {
+          console.error(`Failed to fetch data from ${url}:`, error);
+          return null;
+        }
+      }
+
+      // Display city details
+      async function showCityDetails(cityName) {
+        const generalData = await fetchJsonData(generalDataUrl);
+        const specificData = await fetchJsonData(specificDataUrl);
+
+        // Handle errors in fetching data
+        if (!generalData || !specificData) {
+          document.getElementById('city-details').innerHTML = '<p>Error loading data. Please try again.</p>';
+          return;
+        }
+
+        // Find city details in general.json
+        let generalInfo = null;
+        let regionName = null;
+
+        for (const region in generalData) {
+          generalInfo = generalData[region].find(city => city.name === cityName);
+          if (generalInfo) {
+            regionName = region;
+            break;
+          }
+        }
+
+        // Fetch specific data
+        const specificInfo = specificData[cityName];
+
+        // Handle case where city details are missing
+        if (!generalInfo || !specificInfo) {
+          document.getElementById('city-details').innerHTML = '<p>City details not found.</p>';
+          return;
+        }
+
+        // Populate city details in the HTML
+        document.getElementById('city-details').innerHTML = `
+          <h1>${generalInfo.name}</h1>
+          <p><strong>Region:</strong> ${regionName}</p>
+          <img src="${generalInfo.image}" alt="${generalInfo.name}" style="width: 300px; height: auto;" />
+          <p><strong>Description:</strong> ${specificInfo.description}</p>
+          <p><strong>Population:</strong> ${specificInfo.population}</p>
+          <h3>Attractions:</h3>
+          <ul>
+            ${specificInfo.attractions.map(attraction => `<li>${attraction}</li>`).join('')}
+          </ul>
+        `;
+      }
+    </script>
+</head>
+<body>
+  <div>
+    <button onclick="showCityDetails('Hà Nội')">Hà Nội</button>
+    <button onclick="showCityDetails('Da Nang')">Da Nang</button>
+    <button onclick="showCityDetails('Hue')">Hue</button>
+  </div>
+  
+  <div id="city-details">
+    <!-- City details will be injected here -->
+  </div>
+</body>
+</html>

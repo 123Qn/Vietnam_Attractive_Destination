@@ -1,0 +1,23 @@
+{
+    "Hà Nội": {
+      "description": "Hà Nội, the capital of Vietnam, is known for its centuries-old architecture and rich culture.",
+      "attractions": ["Hoan Kiem Lake", "Old Quarter", "Temple of Literature"],
+      "population": 8000000
+    },
+    "Ho Chi Minh City": {
+      "description": "A bustling metropolis that blends historical landmarks with modern skyscrapers.",
+      "attractions": ["Ben Thanh Market", "War Remnants Museum", "Cu Chi Tunnels"],
+      "population": 9000000
+    },
+    "Da Nang": {
+      "description": "Known for its sandy beaches and history as a French colonial port.",
+      "attractions": ["My Khe Beach", "Marble Mountains", "Dragon Bridge"],
+      "population": 1200000
+    },
+    "Hue": {
+      "description": "The imperial capital, home to ancient palaces and tombs.",
+      "attractions": ["Imperial City", "Thien Mu Pagoda", "Tomb of Khai Dinh"],
+      "population": 350000
+    }
+  }
+  

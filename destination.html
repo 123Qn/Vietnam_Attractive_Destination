@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietNam Travel</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+    
+        <div class="header-top">
+          <div class="container">
+    
+            <a href="tel:+64475451006" class="helpline-box">
+    
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+    
+              <div class="wrapper">
+                <p class="helpline-title">Plan your journey ?</p>
+                <p class="helpline-number">Call:0123456789</p>
+              </div>
+        
+            </a>
+    
+            <a href="#" class="logo">
+              <img src="./assets/image/logo.svg" alt="Tourly logo">
+            </a>
+    
+            <div class="header-btn-group">
+    
+              <button class="search-btn" aria-label="Search">
+                <ion-icon name="search"></ion-icon>
+              </button>
+    
+              <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+              </button>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="header-bottom">
+          <div class="container">
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <nav class="navbar" data-navbar>
+    
+              <div class="navbar-top">
+    
+                <a href="#" class="logo">
+                  <img src="./assets/image/logo-copy.svg" alt="Tourly logo">
+                </a>
+    
+                <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+    
+              </div>
+    
+              <ul class="navbar-list">
+    
+                <li>
+                  <a href="index.html" class="navbar-link" data-nav-link>home</a>
+                </li>
+
+                <li>
+                  <a href="destination.html" class="navbar-link" data-nav-link>destination</a>
+                </li>
+    
+                <li>
+                  <a href="#package" class="navbar-link" data-nav-link>festivals</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" data-nav-link>food</a>
+                </li>
+    
+                <li>
+                  <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+                </li>
+    
+              </ul>
+    
+            </nav>
+    
+            <button class="btn btn-primary" style="visibility: hidden;"></button>
+    
+          </div>
+        </div>
+    
+      </header>
+    
+    
+      <main>
+        <article>
+    
+          <!-- 
+            - #HERO
+          -->
+    
+          <section class="hero2" id="home">
+          
+            <div class="container">
+             
+              <h2 class="h1 hero-title" style="font-size: xxx-large;">Destination</h2>
+              <span style="color: white;">Select destination of the regional below</span>
+    
+            </div>
+          </section>
+          <!-- 
+            - #POPULAR
+          -->
+  
+          <section class="popular" id="destination">
+            <div class="container">
+              
+              <h2 class="h2 section-title">VietNam Region</h2>
+    
+              <p class="section-text">
+                 Explore all 9 fantastic regionals of VietNam
+              </p>
+              <ul class="popular-list">
+    
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/North/west/west.jpg" alt="taybac" loading="lazy">
+                    </figure>
+                  
+    
+                    <div class="card-content">
+
+                      <p class="card-subtitle">
+                        <button onclick="northwest()">Northern Vietnam</button>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <button onclick="northwest()">NORTHWEST VIETNAM</button>
+                      </h3>
+    
+                      <p class="card-text">
+                        Hoi An Ancient Town is an exceptionally well-preserved example of a South-East Asian trading port dating from the 15th to the 19th century. 
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/North/east/east.jpg" alt="dongbacbo" loading="lazy">
+                    </figure>
+    
+                    <div class="card-content">
+                      <p class="card-subtitle">
+                        <button onclick="northeast()">Northern Vietnam</button>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <button onclick="northeast()">NORTHEAST VIETNAM</button>
+                      </h3>
+    
+                      <p class="card-text">
+                        Hue Historic Citadel is one of the most popular destinations for history and culture tours in Vietnam. 
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/North/dbsh.jpg" alt="dbsh" loading="lazy">
+                    </figure>
+    
+                    <div class="card-content">
+                      <p class="card-subtitle">
+                        <a href="#destinationPage">Northern VietNam</a>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <a href="#destinationPage">Red River Delta</a>
+                      </h3>
+    
+                      <p class="card-text">
+                        The Sapa region is prominent for its picture-perfect mountain landscapes and the diverse cultures of many tribes such as the Red Dzao, Hmong, and Phù Lá ethnic groups.
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/Mid/btb.jpg" alt="btb" loading="lazy">
+                    </figure>
+    
+                    <div class="card-content">
+                      <p class="card-subtitle">
+                        <a href="#destinationPage">Central Vietnam</a>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <a href="#destinationPage">North Central Coast</a>
+                      </h3>
+    
+                      <p class="card-text">
+                        The Cai Rang Floating Market typically operates every day from the early morning hours (around 5am or 6am) until late morning, usually around 10am. 
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/Mid/ntb.jpg" alt="ntb" loading="lazy">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <p class="card-subtitle">
+                        <a href="#destinationPage">Central VietNam</a>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <a href="#destinationPage">Southern Coast</a>
+                      </h3>
+    
+                      <p class="card-text">
+                        Founded over 1000 years ago, Vietnam's capital city is rich in history
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+    
+                    <figure class="card-img">
+                      <img src="./assets/image/Mid/tn.jpg" alt="tn" loading="lazy">
+                    </figure>
+    
+                    <div class="card-content">
+                      <p class="card-subtitle">
+                        <a href="#destinationPage">Central Vietnam</a>
+                      </p>
+    
+                      <h3 class="h3 card-title">
+                        <a href="#destinationPage">Highlands</a>
+                      </h3>
+    
+                      <p class="card-text">
+                        Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region.
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                    <div class="popular-card">
+      
+                      <figure class="card-img">
+                        <img src="./assets/image/South/dnb.jpg" alt="dnb" loading="lazy">
+                      </figure>
+      
+                      <div class="card-content">
+                        <p class="card-subtitle">
+                          <a href="#destinationPage">Southern Vietnam</a>
+                        </p>
+      
+                        <h3 class="h3 card-title">
+                          <a href="#destinationPage">Southeast Vietnam</a>
+                        </h3>
+      
+                        <p class="card-text">
+                          Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region.
+                        </p>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="popular-card">
+      
+                      <figure class="card-img">
+                        <img src="./assets/image/South/tnb.jpg" alt="tnb" loading="lazy">
+                      </figure>
+      
+                      <div class="card-content">
+                        <p class="card-subtitle">
+                          <a href="#destinationPage">Southern Vietnam</a>
+                        </p>
+      
+                        <h3 class="h3 card-title">
+                          <a href="#destinationPage">Southwest Vietnam</a>
+                        </h3>
+      
+                        <p class="card-text">
+                          Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region.
+                        </p>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="popular-card">
+      
+                      <figure class="card-img">
+                        <img src="./assets/image/ts.jpg" alt="ts" loading="lazy">
+                      </figure>
+      
+                      <div class="card-content">
+                        <p class="card-subtitle">
+                          <a href="#destinationPage"></a>
+                        </p>
+      
+                        <h3 class="h3 card-title">
+                          <a href="#destinationPage">Hoang Sa -Truong Sa</a>
+                        </h3>
+      
+                        <p class="card-text">
+                          Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region.
+                        </p>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </section>
+          <!--
+          north region
+          -->
+          <section id="replacement" style="display: none;">
+            <div class="container">
+                <button onclick="back()">Back</button>
+              <h2 class="h2 section-title">NorthWest Region</h2>
+    
+              <p class="section-text">
+                Click on the destination for more imfomation
+              </p>
+                <ul class="popular-list">
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/Laocai/laocai.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam</a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Lào Cai</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Located across the Muong Hoa Valley from Vietnam's highest mountain, Fansipan, the city is sometimes referred to as the "queen of mountains"
+                            </p>
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/Yenbai/yenbai.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Yên Bái</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Yen Bai is a land that holds rich and diverse cultural and spiritual values, established throughout its long history alongside indigenous beliefs. Additionally, nature has bestowed upon this land a picturesque landscape with enchanting features, creating impressive experiences for every visitor.
+                            </p>
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/laichau/laichau.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Lai Châu</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Check out must-see sights and activities: Tam Duong Market, Pu Sam Cap Caves, Multi-day Tours, Walking Tours. 
+                            </p>
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/dienbien/dienbien.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Điện Biên</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Dien Bien, Vietnam, known for its pivotal role in history, is a province in northern Vietnam with a rich cultural tapestry and stunning natural scenery.
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/sonla/sonla.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Sơn La</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Son La Province, nestled in the northwest region of Vietnam, boasts captivating natural landscapes and a rich cultural heritage.
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/west/hoabinh/hoabinh.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northwest Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Hoa Binh</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Due to its hilly and mountainous terrain, Hoa Binh possesses a rich and diverse natural tourism resource, including rivers, lakes, mineral ...
+          
+                          </div>
+          
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+          </section>
+
+          <!--
+          northeast region
+          -->
+          <section id="northeast" style="display: none;">
+            <div class="container">
+                <button onclick="back()">Back</button>
+              <h2 class="h2 section-title">NorthEast Region</h2>
+    
+              <p class="section-text">
+                Click on the destination for more imfomation
+              </p>
+                <ul class="popular-list">
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/hagiang/hagiang.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam</a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Hà Giang</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Ha Giang Province is famous for its stunning natural beauty, which includes towering limestone cliffs, deep valleys, and traditional villages.
+                            </p>
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/tuyenquang/tuyenquang.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Tuyen Quang</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Tuyen Quang is a mountainous province in Northeastern Vietnam, at the center of Lo River valley, a tributary of the Red River.
+                            </p>
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/phutho/phutho.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Phu Tho</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Nestled in the picturesque landscapes of northern Vietnam, Phu Tho Province offers a captivating blend of agricultural splendor and cultural heritage.
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/thainguyen/thainguyen.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Thai Nguyen</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                The city is listed as a first class city and is the ninth largest city in Vietnam. It has long been famous throughout Vietnam for its Tân Cương tea          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/backan/backan.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Bac Kan</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Bac Kan is a mountainous province located in the inland center of the Northeastern region
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/caobang/caobang.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Cao Bang</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Tucked away in a remote area of Northern Vietnam, Cao Bang Province is bursting with beautiful geo-cultural sites.
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/langson/langson.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Lạng Sơn</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Lạng Sơn was one of the 13 original provinces in northern Vietnam that were created under the reign of Emperor Minh Mạng in 1831.It is endowed with karst mountains, beautiful rivers, picturesque landscapes, and many historical
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/bacgiang/bacgiang.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Bac Giang</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Bac Giang is one of the major industrial hubs in northeastern Vietnam, supported by a favorable location and well-developed infrastructure.
+          
+                          </div>
+          
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="popular-card">
+          
+                          <figure class="card-img">
+                            <img src="./assets/image/North/east/quangninh/quangninh.jpg" alt="taybac" loading="lazy">
+                          </figure>
+                        
+          
+                          <div class="card-content">
+      
+                            <p class="card-subtitle">
+                              <a href="#destinationPage"> Northeast Vietnam </a>
+                            </p>
+          
+                            <h3 class="h3 card-title">
+                              <a href="#destinationPage">Quang Ninh</a>
+                            </h3>
+          
+                            <p class="card-text">
+                                Quang Ninh is a mountainous and coastal province, with more than 80% of its area being made up of mountains and hills
+          
+                          </div>
+          
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+          </section>
+    
+    </article>
+    </main>
+  </body>
+  </html>
+  <script>
+
+    function northwest() {
+    document.getElementById('destination').style.display = 'none';
+    document.getElementById('replacement').style.display = 'block';
+    document.getElementById('northeast').style.display = 'none';
+}
+
+function northeast() {
+    document.getElementById('destination').style.display = 'none';
+    document.getElementById('replacement').style.display = 'none';
+    document.getElementById('northeast').style.display = 'block';
+}
+ function back(){
+    document.getElementById('destination').style.display = 'block';
+    document.getElementById('replacement').style.display = 'none';
+    document.getElementById('northeast').style.display = 'none';
+}
+
+
+  </script>

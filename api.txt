@@ -1,0 +1,59 @@
+// Google Translate API key (replace with your own API key)
+const API_KEY = 'YOUR_GOOGLE_API_KEY';
+const apiUrl = 'https://translation.googleapis.com/language/translate/v2';
+
+// Function to translate the content
+function translateText(text, targetLanguage) {
+    fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            q: text,
+            target: targetLanguage,
+            key: API_KEY
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            // If the response is not okay, throw an error with the status
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.data && data.data.translations && data.data.translations.length > 0) {
+            updateContent(data.data.translations[0].translatedText);
+        } else {
+            throw new Error('Unexpected API response structure');
+        }
+    })
+    .catch(error => {
+        // Log the error and optionally show an alert
+        console.error('Error translating text:', error.message || error);
+        alert('Failed to translate content. Please try again.');
+    });
+}
+// Function to update the content with the translated text
+function updateContent(translatedText) {
+    // For this example, we will only update the "destination" and "destination" elements
+    document.getElementById('destination').innerText = translatedText;
+    document.getElementById('destination').innerText = translatedText;
+}
+
+// Function to switch the language when a button is clicked
+function switchLanguage(language) {
+    const elementsToTranslate = {
+        'destination': document.getElementById('destination').innerText,
+        'destination': document.getElementById('destination').innerText
+    };
+
+    // Translate each piece of content
+    for (const [key, text] of Object.entries(elementsToTranslate)) {
+        translateText(text, language);
+    }
+}
+
+// Example of setting a default language (English)
+window.onload = () => switchLanguage('en');

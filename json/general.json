@@ -1,0 +1,31 @@
+{
+    "Northern": [
+      { "name": "Lào Cai", "image": "../i1.jpg" },
+      { "name": "Yên Bái", "image": "../i1.jpg" },
+      { "name": "Lai Châu", "image": "hcmc.jpg" },
+      { "name": "Điện Biên", "image": "../i1.jpg" },
+      { "name": "Sơn La", "image": "../i1.jpg" },
+      { "name": "Hòa Bình", "image": "../i1.jpg" },
+      { "name": "Hà Giang", "image": "../i1.jpg" },
+      { "name": "Tuyên Quang", "image": "../i1.jpg" },
+      { "name": "Phú Thọ", "image": "../i1.jpg" },
+      { "name": "Thái Nguyên", "image": "../i1.jpg" },
+      { "name": "Bắc Kạn", "image": "../i1.jpg" },
+      { "name": "Cao Bằng", "image": "../i1.jpg" },
+      { "name": "Lạng Sơn", "image": "../i1.jpg" },
+      { "name": "Bắc Giang", "image": "../i1.jpg" },
+      { "name": "Quảng Ninh", "image": "../i1.jpg" },
+      { "name": "Hà Nội", "image": "../i1.jpg" },
+      { "name": "Hải Phòng", "image": "../i1.jpg" },
+      { "name": "Bắc Ninh", "image": "../i1.jpg" },
+      { "name": "Hưng Yên", "image": "../i1.jpg" },
+      { "name": "Thái Bình", "image": "../i1.jpg" },
+      { "name": "Nam Định", "image": "../i1.jpg" },
+      { "name": "Ninh Bình ", "image": "../i1.jpg" },
+      { "name": "Hà Nam", "image": "../i1.jpg" }
+    ],
+    "Central": [
+      { "name": "Da Nang", "image": "danang.jpg" },
+      { "name": "Hue", "image": "hue.jpg" }
+    ]
+  }
