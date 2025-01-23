@@ -384,7 +384,7 @@
     padding-top: 125px;
   }
   .hero2{
-  
+
       background-image: url("../image//index-img/hero.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -1336,7 +1336,7 @@
   }
 /*button 
 /* Style for the back button */
-#replacement button ,#northeast button {
+#northwest button ,#northeast button,#redRiver button,#centralNorth button, #centralNorth button,#centralSouth button, #highland button,#southeast button,#southwest button {
   background-color: #4CAF50;  /* Green background */
   color: white;  /* White text */
   border: none;  /* Remove default border */
@@ -1348,6 +1348,118 @@
 }
 
 /* Hover effect for the button */
-#replacement button:hover ,#northeast button:hover {
+#northwest button:hover ,#northeast button:hover {
   background-color: #45a049;  /* Darker green when hovered */
+}
+#northwest,
+#northeast,
+#redRiver,
+#northwest,
+#centralNorth,
+#centralSouth,
+#highland,
+#southeast,
+#southwest{
+  display: none;
+}
+
+/* Destination Specific */
+#destination-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid with larger images */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Max width for better centering */
+}
+
+.destination-group-item {
+  border-radius: 12px; /* Rounded corners */
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: flex-start; /* Align content at the top */
+  text-align: center;
+  height: 100%; /* Ensure the height grows with content */
+  min-height: 300px; /* Set a minimum height for consistency */
+  overflow: hidden; /* Prevent content from spilling out */
+}
+
+.destination-group-item:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.destination-group-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600; /* Bold heading */
+  color: #333;
+}
+
+.destination-group-item p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.destination-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Set max width to fill the available space */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-bottom: 15px;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.destination-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.destination-detail {
+  display: none; /* Hide by default */
+  font-size: 13px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.destination-detail.visible {
+  display: block; /* Show when 'visible' class is added */
+}
+
+#destination-sub {
+  font-style: italic;
+  color: #888;
+}
+
+#destination-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Make sure the grid adapts to smaller screens */
+@media (max-width: 768px) {
+  #destination-group {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust for smaller screens */
+  }
+
+  .destination-group-item {
+    padding: 12px; /* Slightly smaller padding on smaller screens */
+  }
+
+  .destination-image {
+    max-width: 90%; /* Slightly smaller image on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #destination-group {
+    grid-template-columns: 1fr; /* Single column for very small screens */
+  }
 }

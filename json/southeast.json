@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Ho Chi Minh City",
+      "subtitle": "South-East Vietnam",
+      "description": "Ho Chi Minh City is the largest city, business and financial hub of Vietnam. Also known as Saigon, it has a prominent history going back hundreds of years. There are plenty of museums showcasing the country's dark wartime history and classic colonial architecture built by former French rulers.",
+      "image": "./assets/image/South/southeast/saigon/saigon.jpg"
+    },
+    {
+        "name": " Đồng Nai",
+        "subtitle": "South-East Vietnam",
+        "description": "Dong Nai is located right at the economic center zone of the South. It is also the most dynamic area in Vietnam in terms of economic development.",
+        "image": "./assets/image/South/southeast/dongnai/dongnai.webp"
+    },
+    {
+        "name": "Bà Rịa–Vũng Tàu",
+        "subtitle": "South-East Vietnam",
+        "description": "Vung Tau is known for its wide range of mouthwatering dishes made with fresh, local ingredients.",
+        "image": "./assets/image/South/southeast/vungtau/vungtau.jpg"
+    },
+    {
+        "name": "Binh Duong",
+        "subtitle": "South-East Vietnam",
+        "description": "Binh Duong Province, a satellite of Ho Chi Minh City, encompasses historic destinations and fruit orchards, showcasing specialties such as mangosteen",
+        "image": "./assets/image/South/southeast/binhduong/binhduong.jpg"
+    },
+
+    {
+        "name": "Binh Phuoc",
+        "subtitle": "South-East Vietnam",
+        "description": "Binh Phuoc has many attractions for tourists, such as Bu Gia Map National Park, Ba Ra Mountain, Thac Mo Lake, Bom Bo Village, and Dong Xoai Martyrs Cemetery.",
+        "image": "./assets/image/South/southeast/binhphuoc/binhphuoc.jpg"
+    },
+    {
+        "name": "Tay Ninh",
+        "subtitle": "South-East Vietnam",
+        "description": "Tay Ninh is home of Cao Dai religion with Tay Ninh Cao Dai Temple, a complex of Great Temple, Chanh Mon Gate, four towers and Mother-of-Buddha Temple.",
+         "image": "./assets/image/South/southeast/tayninh/tayninh.jpg"
+    }
+]

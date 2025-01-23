@@ -1,0 +1,146 @@
+[
+    {
+      "name": "Lào Cai",
+      "subtitle": "NorthWest Vietnam",
+      "price":"$100–$300 / per day ",
+      "description": "Located across the Muong Hoa Valley from Vietnam's highest mountain, Fansipan, the city is sometimes referred to as the queen of mountains",
+      "explain":"Nestled in the misty mountains of northern Vietnam, Lao Cai is a captivating destination for those seeking adventure, culture, and breathtaking natural beauty. Known for its vibrant ethnic diversity and stunning landscapes, Lao Cai offers an unforgettable experience for every traveler.Sapa  The Heart of Lao Cai Sapa is the crown jewel of Lao Cai, famous for its lush terraced rice fields, towering mountains, and cool climate. Whether you're trekking through the rolling hills, exploring the local villages, or simply soaking in the panoramic views, Sapa promises a unique connection with nature and culture. The region is also home to several ethnic minorities, including the H'mong, Tay, and Dao, each with their own fascinating traditions and colorful attire.Conquer Fansipan  Roof of Indochina For the adventurous at heart, a journey to Fansipan Mountain is a must. Standing as the highest peak in Vietnam, Fansipan offers challenging trekking routes and a breathtaking cable car ride for panoramic views of the surrounding landscape. Whether you trek to the summit or take in the views from the comfort of the cable car, it’s an experience that will leave you awe-struck.Bac Ha Market  A Cultural Feast Step into the heart of Lao Cai’s ethnic culture with a visit to Bac Ha Market. Known for its vibrant colors and lively atmosphere, this market is where local hill tribes gather to trade goods, share stories, and display their crafts. It’s the perfect spot to purchase handmade goods, try authentic local foods, and witness the rich traditions of the region.Immerse Yourself in Local Culture Lao Cai is home to several ethnic communities, and exploring their villages provides a rare chance to learn about their rich heritage. From traditional festivals to local crafts, the people of Lao Cai are known for their warm hospitality and pride in their cultural identity.Whether you're seeking adventure in the mountains, cultural immersion in traditional villages, or simply a peaceful retreat in nature, Lao Cai offers something special for every traveler. Come and experience the charm of this northern gem!",
+      "image": "./assets/image/North/west/Laocai/laocai.jpg",
+      "comment": [
+        {
+            "name":"A",
+            "Date": "1/1/2025",
+            "detail-comment":"Lào Cai is an amazing destination with a mix of stunning landscapes, rich culture, and adventure. I loved exploring Sapa and trekking to Fansipan, which offered breathtaking views."
+        },
+        {
+            "name":"B",
+            "Date": "1/10/2025",
+            "detail-comment":"Lào Cai is not an amazing destination with a mix of stunning landscapes, rich culture, and adventure. I loved exploring Sapa and trekking to Fansipan, which offered breathtaking views."
+        }
+  ],
+      "destination":[
+        {
+            "name":"Fansipan",
+            "location":"Hoang Lien Son mountain range",
+            "detail":"is the hishest mountain",
+            "image-description":"./assets/image/North/west/Laocai/laocai.jpg"
+        },
+        {
+            "name":"Sapa",
+            "location": "SaPa District",
+            "detail":"Located at an altitude of 1500m - 1800m above sea level, SaPa not only possesses wild primeval forests, but also modern, poetic tourist attractions, resorts, classy hotels and even ancient villages. .",
+            "image-description":"./assets/image/North/west/Laocai/sapa.jpg"
+        },
+        {
+            "name":"Y Ty Village",
+            "location": "Bát Xát",
+            "detail":"Located at an altitude of 2000m above sea level, Y Ty commune is one of the best check-in locations today, next to Sapa. Far from being inferior to younger sister, Y Ty possesses many pristine landscapes that move people's hearts, accompanied by many attractive camping, trekking,... activities.",
+             "image-description":"./assets/image/North/west/Laocai/yty.jpg"
+        },
+        {
+            "name":"O Quy Ho mountain pass",
+            "location": "SaPa",
+            "detail":"Famous among Vietnam's four dangerous mountain pass peaks, however, the scenery that O Quy Ho brings is extremely worth overcoming thousands of dangers to visit: the cloud layer is right in front of you, and wild flowers are blooming. , romantic snowfall (when going in the right season),...",
+            "image-description":"./assets/image/North/west/Laocai/oquyho.jpeg"
+        },
+        {
+            "name":"Sun World Fansipan Legend",
+            "location": "SaPa",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/Laocai/sunworld.webp"
+        }
+      ]
+    },
+    {
+        "name": "Yên Bái",
+        "subtitle": "NorthWest Vietnam",
+        "price":"$120-$500 / per day",
+        "description": "Yen Bai is a land that holds rich and diverse cultural and spiritual values, established throughout its long history alongside indigenous beliefs. Additionally, nature has bestowed upon this land a picturesque landscape with enchanting features, creating impressive experiences for every visitor.",
+        "explain":"Yen Bai, located in the northwest region of Vietnam, is a province celebrated for its breathtaking landscapes and rich cultural diversity. The province is home to stunning natural attractions, such as the Hoang Lien Son mountain range, which includes the highest peak in Vietnam, Fansipan. The region is famous for its picturesque terraced rice fields, particularly in Mu Cang Chai, where the fields form intricate patterns on the mountainsides, especially during the harvest season, attracting photographers and nature enthusiasts alike.Yen Bai is also known for its ethnic diversity, with several ethnic groups, including the H'mong, Thai, Tay, and Dao, calling the province home. These communities preserve unique traditions, languages, and lifestyles, which can be experienced through their vibrant festivals, traditional music, dance, and handicrafts. The province’s rich cultural heritage is evident in local markets, where visitors can find handmade textiles, silver jewelry, and other traditional crafts.In addition to trekking and cultural exploration, Yen Bai offers opportunities for eco-tourism, with activities such as hiking, mountain climbing, and exploring the area’s diverse flora and fauna. The region’s rural charm and serene environment make it a perfect destination for those seeking a more authentic and off-the-beaten-path experience in Vietnam. Visitors can also explore the Yen Bai Lake and other smaller natural reserves, making it a haven for outdoor enthusiasts and those looking to immerse themselves in the tranquility of the Vietnamese countryside.",
+        "image": "./assets/image/North/west/Yenbai/yenbai.jpg",
+        "destination":[
+        {
+            "name":"Rice fields Mu Can Chai",
+            "location": "Mu Can Chai village",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/Yenbai/mucanchai.jpg"
+        },
+        {
+            "name":"Thac Ba Lake",
+            "location": "Between Yên Bình province and Lục Yên province",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/Yenbai/thacba.jpg"
+        },
+        {
+            "name":"Khau Pha Pass",
+            "location": "Mu Can Chai",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/Yenbai/khaupha.jpg"
+        },
+        {
+            "name":"Nguyen Thai Hoc Tomb",
+            "location": "Nguyen Thai Hoc Ward, Yen Bai City",
+            "detail":"The mausoleum comprises a tomb, monument, commemorative plaques, and reception areas. Adjacent to the mausoleum is a delightful flower garden, a serene lake, and the picturesque Yen Hoa Park, featuring charming pathways and verdant trees",
+            "image-description":"./assets/image/North/west/Yenbai/tomb.jpg"
+        }
+      ]
+    },
+    {
+        "name": "Lai Châu",
+        "subtitle": "NorthWest Vietnam",
+        "price":" $338 / per person for 3 days trip",
+        "description": " Check out must-see sights and activities: Tam Duong Market, Pu Sam Cap Caves, Multi-day Tours, Walking Tours. ",
+        "explain":"Lai Chau is a mountainous province in the northwest of Vietnam, known for its rugged landscapes, ethnic diversity, and serene natural beauty. Situated near the border with China, Lai Chau is characterized by towering mountains, deep valleys, and winding rivers, making it a popular destination for nature lovers and adventure seekers. The province is home to several ethnic groups, including the H'mong, Tay, Dao, and Thai, each with their own distinct traditions, languages, and lifestyles.Lai Chau is renowned for its impressive natural sites, such as the Phan Xi Păng mountain range, which offers opportunities for trekking and climbing. The region also features stunning waterfalls, lush forests, and vast terraced rice fields, particularly in areas like Tam Duong and Sin Ho. The province is also known for its cultural richness, with ethnic minorities maintaining traditional customs that can be explored through their festivals, markets, and handicrafts, including woven textiles, embroidery, and silverwork.Visitors to Lai Chau can enjoy activities such as trekking, mountain climbing, and exploring local villages, where they can learn about the unique cultures and lifestyles of the local communities. Lai Chau offers a peaceful retreat from the bustling cities, with its pristine nature and welcoming atmosphere providing an authentic experience of rural Vietnam. The province’s natural beauty and cultural heritage make it an ideal destination for those looking for an off-the-beaten-path adventure.",
+        "image": "./assets/image/North/west/laichau/laichau.jpg",
+        "destination":[
+        {
+            "name":"Tan Uyen tea fields",
+            "location": "Tan Uyen province",
+            "image-description":"./assets/image/North/west/laichau/tanuyen.jpg"
+        },
+        {
+            "name":"Pu Ta Leng pass",
+            "location": "Lai Chau",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/laichau/putaleng.jpg"
+        },
+        {
+            "name":"Pu Sam Cap Cave",
+            "location": "Sin Ho",
+            "detail":"Coming to Sun World Fansipan Legend, you must buy a ticket to Muong Hoa right away. The train runs like a fairy tale through a field of roses, below is a lush green valley that makes us feel like we are lost in a fairy tale!",
+            "image-description":"./assets/image/North/west/laichau/pusamcap.jpg"
+        },
+        {
+            "name":"The Ethnic Village Of Si Thau Chai",
+            "location": "Tam Đường",
+            "detail":"none",
+            "image-description":"./assets/image/North/west/laichau/sinthauchai.webp"
+        },
+        {
+            "name":"Bach Moc Luong Tu Mountain Range",
+            "location": "Hoang Lien Son",
+            "detail":"none",
+            "image-description":"./assets/image/North/west/laichau/luongtu.webp"
+        }
+
+      ]
+    },
+    {
+        "name": "Điện Biên",
+        "subtitle": "NorthWest Vietnam",
+        "description": " Dien Bien, Vietnam, known for its pivotal role in history, is a province in northern Vietnam with a rich cultural tapestry and stunning natural scenery.",
+        "image": "./assets/image/North/west/dienbien/dienbien.jpg"
+    },
+    {
+        "name": "Sơn La",
+        "subtitle": "NorthWest Vietnam",
+        "description": "Son La Province, nestled in the northwest region of Vietnam, boasts captivating natural landscapes and a rich cultural heritage.",
+        "image": "./assets/image/North/west/sonla/sonla.jpg"
+    },
+    {
+        "name": "Hoa Binh",
+        "subtitle": "NorthWest Vietnam",
+        "description": "Due to its hilly and mountainous terrain, Hoa Binh possesses a rich and diverse natural tourism resource, including rivers, lakes, mineral ...",
+        "image": "./assets/image/North/west/hoabinh/hoabinh.jpg"
+    }
+]

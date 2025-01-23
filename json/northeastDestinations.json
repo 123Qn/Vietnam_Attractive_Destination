@@ -1,0 +1,58 @@
+[
+    {
+      "name": "Hà Giang",
+      "subtitle": "Northeast Vietnam",
+      "description": "Ha Giang Province is famous for its stunning natural beauty, which includes towering limestone cliffs, deep valleys, and traditional villages.",
+      "image": "./assets/image/North/east/hagiang/hagiang.jpg"
+      
+    },
+    {
+      "name": "Tuyen Quang",
+      "subtitle": "Northeast Vietnam",
+      "description": "Tuyen Quang is a mountainous province in Northeastern Vietnam, at the center of Lo River valley, a tributary of the Red River.",
+      "image": "./assets/image/North/east/tuyenquang/tuyenquang.jpg"
+    },
+    {
+      "name": "Phu Tho",
+      "subtitle": "Northeast Vietnam",
+      "description": "Nestled in the picturesque landscapes of northern Vietnam, Phu Tho Province offers a captivating blend of agricultural splendor and cultural heritage.",
+      "image": "./assets/image/North/east/phutho/phutho.jpg"
+    },
+    {
+      "name": "Thai Nguyen",
+      "subtitle": "Northeast Vietnam",
+      "description": "The city is listed as a first class city and is the ninth largest city in Vietnam. It has long been famous throughout Vietnam for its Tân Cương tea.",
+      "image": "./assets/image/North/east/thainguyen/thainguyen.jpg"
+    },
+    {
+      "name": "Bac Kan",
+      "subtitle": "Northeast Vietnam",
+      "description": "Bac Kan is a mountainous province located in the inland center of the Northeastern region.",
+      "image": "./assets/image/North/east/backan/backan.jpg"
+    },
+    {
+      "name": "Cao Bang",
+      "subtitle": "Northeast Vietnam",
+      "description": "Tucked away in a remote area of Northern Vietnam, Cao Bang Province is bursting with beautiful geo-cultural sites.",
+      "image": "./assets/image/North/east/caobang/caobang.jpg"
+    },
+    {
+      "name": "Lạng Sơn",
+      "subtitle": "Northeast Vietnam",
+      "description": "Lạng Sơn was one of the 13 original provinces in northern Vietnam that were created under the reign of Emperor Minh Mạng in 1831. It is endowed with karst mountains, beautiful rivers, picturesque landscapes, and many historical sites.",
+      "image": "./assets/image/North/east/langson/langson.jpg"
+    },
+    {
+      "name": "Bac Giang",
+      "subtitle": "Northeast Vietnam",
+      "description": "Bac Giang is one of the major industrial hubs in northeastern Vietnam, supported by a favorable location and well-developed infrastructure.",
+      "image": "./assets/image/North/east/bacgiang/bacgiang.jpg"
+    },
+    {
+      "name": "Quang Ninh",
+      "subtitle": "Northeast Vietnam",
+      "description": "Quang Ninh is a mountainous and coastal province, with more than 80% of its area being made up of mountains and hills.",
+      "image": "./assets/image/North/east/quangninh/quangninh.jpg"
+    }
+  ]
+  

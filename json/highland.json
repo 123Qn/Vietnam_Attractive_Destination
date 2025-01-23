@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Kon Tum",
+      "subtitle": "Central Southern Coast",
+      "description": "Kon Tum is the perfect place for nature lovers who want to roam among the dramatic scenic natural beauty surrounded by lakes, mountains, cafe plantations",
+      "image": "./assets/image/Highland/kontum/kontum.jpg"
+    },
+    {
+        "name": "Gia Lai",
+        "subtitle": "Central Southern Coast",
+        "description": "Located in the North of the Central Highlands is Gia Lai mountain town with majestic natural scenery and unique and attractive destinations.",
+        "image": "./assets/image/Highland/gialai/gialai.jpg"
+    },
+    {
+        "name": "Dak Lak",
+        "subtitle": "Central Southern Coast",
+        "description": "Dak Lak is a highland region surrounded by mountains, forests and valleys and filled with rivers, streams, lakes and waterfalls.",
+        "image": "./assets/image/Highland/daklak/daklak.jpg"
+    },
+    {
+        "name": "Dak Nong",
+        "subtitle": "Central Southern Coast",
+        "description": "Dak Nong is a province in the Central Highlands region of Vietnam, known for its rich biodiversity and geological heritage.",
+           "image": "./assets/image/Highland/daknong/daknong.jpg"
+    },
+
+    {
+        "name": "Lâm Đồng",
+        "subtitle": "Central Southern Coast",
+        "description": "Located in the Central Highlands region, Lam Dong is a mountainous province, and 70% of its area is covered in forest",
+        "image": "./assets/image/Highland/lamdong/lamdong.jpg"
+    }
+]

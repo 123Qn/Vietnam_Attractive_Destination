@@ -1,0 +1,81 @@
+[
+    {
+      "name": "Can Tho",
+      "subtitle": "Mekong Delta region",
+      "description": "Can Tho, Vietnam is a magnificent and peaceful destination with white rice paddy fields, floating markets, orchards and a system of rivers and canals.",
+      "image": "./assets/image/South/southwest/cantho/cantho.jpg"
+    },
+    {
+        "name": "Long An",
+        "subtitle": "Mekong Delta region",
+        "description": "Long An Province is a mid-sized province located between Ho Chi Minh City to the West and the Cambodia border on the East.",
+        "image": "./assets/image/South/southwest/longan/longan.webp"
+    },
+    {
+        "name": "Tiền Giang",
+        "subtitle": "Mekong Delta region",
+        "description": "Tien Giang is not only known as a coastal province in South Vietnam but also favored as the political and cultural hub for the entire Mekong Delta region.",
+        "image": "./assets/image/South/southwest/tiengiang/tiengiang.jpg"
+    },
+    {
+        "name": "Ben Tre",
+        "subtitle": "Mekong Delta region",
+        "description": "Having complex network of rivers and canals, Ben Tre has advantage to develop ecotourism with many green fruit gardens. Ben Tre is the granary of Mekong Delta.",
+         "image": "./assets/image/South/southwest/bentre/bentre.jpg"
+    },
+
+    {
+        "name": "Vinh Long",
+        "subtitle": "Mekong Delta region",
+        "description": "Vinh Long is a province in the Mekong Delta region of Vietnam that is famous for its orchards, rivers and islands.",
+          "image": "./assets/image/South/southwest/vinhlong/vinhlong.png"
+    },
+    {
+        "name": "Tra Vinh",
+        "subtitle": "Mekong Delta region",
+        "description": "Tra Vinh, one of the prettiest towns in the Mekong Delta, is a peaceful place to explore the region's little-touted Cambodian connection.",
+         "image": "./assets/image/South/southwest/travinh/travinh.jpg"
+    } ,
+    {
+        "name": "Dong Thap",
+        "subtitle": "Mekong Delta region",
+        "description": "Dong Thap is on the Mekong Delta, one of three Dong Thap Muoi's provinces.",
+           "image": "./assets/image/South/southwest/dongthap/dongthap.png"
+    } ,
+    {
+        "name": "An Giang",
+        "subtitle": "Mekong Delta region",
+        "description": "An Giang has two main types of topography: midland areas and low mountains.",
+        "image": "./assets/image/South/southwest/angiang/angiang.jpg"
+    },
+    {
+        "name": "Kien Giang",
+        "subtitle": "Mekong Delta region",
+        "description": "Kien Giang, Vietnam is truly a paradise for nature lovers, offering breathtaking landscapes, pristine beaches, and vibrant cultural experiences.",
+        "image": "./assets/image/South/southwest/kiengiang/kiengiang.jpg"
+    },
+    {
+        "name": "Hau Giang",
+        "subtitle": "Mekong Delta region",
+        "description": "Hau Giang province is one of the provinces belonging to Mekong Delta River. This is a province with a rich culture and many festivals.",
+        "image": "./assets/image/South/southwest/haugiang/haugiang.jpg"
+    },
+    {
+        "name": "Soc Trang",
+        "subtitle": "Mekong Delta region",
+        "description": "Soc Trang is a captivating province where Khmer and Vietnamese cultures intertwine.",
+        "image": "./assets/image/South/southwest/soctrang/soctrang.jpeg"
+    },
+    {
+        "name": "Bac Lieu",
+        "subtitle": "Mekong Delta region",
+        "description": "Bac Lieu, Vietnam is a province in the Mekong Delta region, brimming with cultural treasures and captivating landscapes",
+        "image": "./assets/image/South/southwest/baclieu/baclieu.webp"
+    },
+    {
+        "name": "Ca Mau",
+        "subtitle": "Mekong Delta region",
+        "description": "Ca Mau - an island located at the southern tip of the country, is an ideal destination for those who want to find closeness to nature and national culture.",
+        "image": "./assets/image/South/southwest/camau/camau.png"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Thanh Hoa",
+      "subtitle": "Central North Coast",
+      "description": "Located in the heart of the northern central coast, Thanh Hoa is one of the largest provinces in Vietnam.",
+      "image": "./assets/image/Mid/northcentral/thanhhoa/thanhhoa.webp"
+    },
+    {
+        "name": "Nghe An",
+        "subtitle": "Central North Coast",
+        "description": "Nghe An Vietnam is a captivating destination with rich history, scenic landscapes, delicious cuisine, and vibrant culture.",
+        "image": "./assets/image/Mid/northcentral/nghean/nghean.jpg"
+    },
+    {
+        "name": "Ha Tinh",
+        "subtitle": "Central North Coast",
+        "description": "Ha Tinh is one of the north central provinces of Vietnam. Ha Tinh is famous for picturesque landscapes of mountains, rivers, numberous historical",
+           "image": "./assets/image/Mid/northcentral/hatinh/hatinh.jpg"
+    },
+    {
+        "name": "Quang Binh",
+        "subtitle": "Central North Coast",
+        "description": "Quang Binh is famous for many charming landscape of mountain and sea",
+        "image": "./assets/image/Mid/northcentral/quangbinh/quangbinh.jpg"
+    },
+
+    {
+        "name": "Quảng Trị",
+        "subtitle": "Central North Coast",
+        "description": "Quảng Trị is considered the most heavily war-impacted province in all of Vietnam.",
+        "image": "./assets/image/Mid/northcentral/quangtri/quangtri.jpg"
+    },
+    {
+        "name": "Hue - Imperial capital",
+        "subtitle": "Central North Coast",
+        "description": "Hue Vietnam, the former imperial capital, boasts a long-lasting treasure trove of world-renowned ancient wonders, distinctive cultural traits",
+         "image": "./assets/image/Mid/northcentral/hue/hue.gif"
+    } 
+]

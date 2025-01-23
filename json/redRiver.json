@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Hà Nội - Capital city",
+      "subtitle": "Red river Delta Vietnam",
+      "description": "The capital of Vietnam. As a capital of 1000 years of history, Hanoi hosts more cultural and historical sites than any other city in Vietnam.",
+      "image": "./assets/image/North/redRiver/hanoi/hanoi.jpg"
+    },
+    {
+        "name": "Hải Phòng",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Haiphong is the third-largest city in Vietnam and is the principal port city of the Red River Delta.",
+        "image": "./assets/image/North/redRiver/haiphong/haiphong.jpg"
+    },
+    {
+        "name": "Vĩnh Phúc",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Vinh Phuc is a province located in the North, favored by nature for many beautiful scenes and scenic areas such as: Tam Dao - a foggy town with quiet landscape.",
+          "image": "./assets/image/North/redRiver/vinhphuc/vinhphuc.png"
+    },
+    {
+        "name": "Bac Ninh",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Nestled in the heart of Northern Vietnam, Bac Ninh Province beckons travelers with its rich heritage, captivating traditions, and picturesque landscapes.",
+        "image": "./assets/image/North/redRiver/bacninh/bacninh.jpeg"
+    },
+
+    {
+        "name": "Hưng Yên",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Hung Yen, nestled in the heart of the Red River Delta, boasts a dynamic blend of cultural heritage and economic vibrancy.",
+        "image": "./assets/image/North/redRiver/hungyen/hungyen.png"
+    },
+    {
+        "name": "Thai Binh",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Coming to Thai Binh, tourists enjoy visiting inshore sandbanks where rare birds stops, seeing natural beauty in mangrove forest, swimming in Dong Chau Beach, and joining interesting traditional festivals. Well-known culture constructions are Dong Bang, Tien La temples, and Keo Pagoda.",
+         "image": "./assets/image/North/redRiver/thaibinh/thaibinh.jpg"
+    },
+    {
+        "name": "Nam Dinh",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Nam Dinh city is one of the city which had been established very soon in north viet nam, it has many famous churches, temples",
+        "image": "./assets/image/North/redRiver/namdinh/namdinh.jpg"
+    },
+    {
+        "name": "Ninh Binh",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Ninh Binh is a wonderland of ancient, modern and natural Vietnam that attracts millions of tourists each year.",
+        "image": "./assets/image/North/redRiver/ninhbinh/ninhbinh.jpg"
+    },
+    {
+        "name": "Ha Nam",
+        "subtitle": "Red river Delta Vietnam",
+        "description": "Ha Nam is located on south of Red River Delta, southern gateway of Hanoi.",
+        "image": "./assets/image/North/redRiver/hanam/hanam.jpg"
+    }
+]

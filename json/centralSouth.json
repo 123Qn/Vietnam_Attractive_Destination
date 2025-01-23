@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Da Nang",
+      "subtitle": "Central Southern Coast",
+      "description": "Da Nang is the commercial and educational center of Central Vietnam and is the largest city in the region.",
+      "image": "./assets/image/Mid/southcentral/danang/danang.avif"
+    },
+    {
+        "name": "Quang Nam",
+        "subtitle": "Central Southern Coast",
+        "description": "Quang Nam is a province in the Central Coast region of Vietnam that is famous for its historical and cultural sites, such as the ancient town of Hoi An",
+        "image": "./assets/image/Mid/southcentral/quangnam/quangnam.jpg"
+    },
+    {
+        "name": "Quang Ngai",
+        "subtitle": "Central Southern Coast",
+        "description": "Quang Ngai is famous for the cultural vestiges of Chau Sa Citadel, Ong and Mai Son pagodas. ",
+        "image": "./assets/image/Mid/southcentral/quangngai/quangngai.jpg"
+    },
+    {
+        "name": "Binh Dinh",
+        "subtitle": "Central Southern Coast",
+        "description": "Binh Dinh is home to ancient Cham towers, pagodas, islands, museums and hot springs. Binh Dinh is also home to many ethnic groups (including the Ba Na and Cham)",
+        "image": "./assets/image/Mid/southcentral/binhdinh/binhdinh.jpg"
+    },
+
+    {
+        "name": "Phu Yen",
+        "subtitle": "Central Southern Coast",
+        "description": "Phu Yen is a province in central Vietnam, belted top to bottom by a dramatic mountain range and hemmed in on its eastern border by 200 kilometres of coastline.",
+        "image": "./assets/image/Mid/southcentral/phuyen/phuyen.jpg"
+    },
+    {
+        "name": "Khanh Hoa",
+        "subtitle": "Central Southern Coast",
+        "description": " Khanh Hoa famous for its beautiful beaches as well as water sports",
+        "image": "./assets/image/Mid/southcentral/khanhhoa/khanhhoa.jpg"
+    } ,
+    {
+        "name": "Ninh Thuận ",
+        "subtitle": "Central Southern Coast",
+        "description": "Stunning beaches and sand dunes, lush green mountains, and vibrant culture are all glowing words whenever people mention Ninh Thuan",
+        "image": "./assets/image/Mid/southcentral/ninhthuan/ninhthuan.jpg"
+    } ,
+    {
+        "name": "Bình Thuận",
+        "subtitle": "Central Southern Coast",
+        "description": "Binh Thuan has three types of topography: mountainous, plain and coastal. The coast longs over 192km with many capes: La Gan, Mui Nho, Mui Rom, Mui Ne, Ke Ga.",
+        "image": "./assets/image/Mid/southcentral/binhthuan/binhthuan.jpg"
+    }
+]
